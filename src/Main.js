@@ -1,12 +1,22 @@
 import "./Main.css";
 import React from "react";
 import Card from "./Card";
+import data from "./data.json";
+
 function Main() {
-  return (
-    <div className="main-bg">
-      <Card />
-    </div>
-  );
+  const cardata = data.map((value) => {
+    return (
+      <Card
+        name={value.name}
+        date={value.date}
+        desc={value.desc}
+        location={value.location.toUpperCase()}
+        content={value.content}
+        map={value.map}
+      />
+    );
+  });
+  return <div className="main-bg">{cardata}</div>;
 }
 
 export default Main;
