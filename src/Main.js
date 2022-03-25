@@ -5,8 +5,6 @@ function Main() {
   return (
     <div className="main-bg">
       <Card />
-      <Card />
-      <Card />
     </div>
   );
 }

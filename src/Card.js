@@ -1,8 +1,9 @@
 import "./Card.css";
 import React from "react";
 import { MdLocationOn } from "react-icons/md";
+// import data from "./data.json";
 
-function App() {
+function Card() {
   return (
     <div className="card-container">
       <img
@@ -36,4 +37,10 @@ function App() {
   );
 }
 
-export default App;
+export default Card;
+
+/* 
+   data.map((value) => {
+    console.log(value);
+  });
+*/
