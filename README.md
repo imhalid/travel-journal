@@ -18,7 +18,6 @@ When I encounter a problem, it becomes more permanent when I research and solve 
 ```
 ex: src / href={`${props.map}`}
 ```
--
 
 ## ScreenShots
 
