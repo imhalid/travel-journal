@@ -1,10 +1,12 @@
 import "./Main.css";
 import React from "react";
-import { GlobeIcon } from "@heroicons/react/solid";
+import Card from "./Card";
 function Main() {
   return (
     <div className="main-bg">
-      <h1>Hello</h1>
+      <Card />
+      <Card />
+      <Card />
     </div>
   );
 }

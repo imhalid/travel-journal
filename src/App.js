@@ -1,6 +1,7 @@
 import "./App.css";
 import Main from "./Main";
 import React from "react";
+
 import { GlobeIcon } from "@heroicons/react/solid";
 function App() {
   return (
