@@ -1,0 +1,8 @@
+.main-bg {
+  padding-top: 55px;
+  height: 704px;
+  width: 550px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}

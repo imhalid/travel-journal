@@ -1,0 +1,20 @@
+.globeicon {
+  width: 24px;
+}
+
+.nav-title {
+  font-weight: 500;
+  font-size: 15px;
+  padding-left: 7px;
+}
+
+.navbar {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f55a5a;
+  color: white;
+  height: 55px;
+  width: 550px;
+}
