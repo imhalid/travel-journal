@@ -13,6 +13,8 @@ function Main() {
         location={value.location.toUpperCase()}
         content={value.content}
         map={value.map}
+
+        //could only be written in "{...value}" but then "toUpperCase" doesn't work.
       />
     );
   });
